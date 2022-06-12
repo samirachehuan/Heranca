@@ -1,0 +1,8 @@
+public class Testar {
+    public static void main(String[] args) {
+        Cachorro cachorro = new Cachorro("Bob");
+        Gato gato = new Gato("Neve");
+        System.out.println(cachorro.qtdPatas);
+        System.out.println(gato.qtdPatas);
+    }
+}
